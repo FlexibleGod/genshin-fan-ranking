@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "declaration": true,
+    "strict": true,
+    "baseUrl": "./",
+    "outDir": "./dist"
+  },
+  "include": ["src/index.ts"],
+  "ts-node": {
+    "esm": true,
+    "files": true
+  }
+}
